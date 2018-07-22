@@ -83,21 +83,21 @@ text-align: center;
 }
 
 .central{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     background-color: blueviolet
 }
 
 .principal{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    height: 1050px;
-    width: 1050px;
     margin: auto;
-    padding-top: 10px;
-    margin-bottom: 5px;
-    
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1145px;
     background-color: aqua;
 }
 .cardFotos{

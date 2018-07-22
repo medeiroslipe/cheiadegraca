@@ -1,0 +1,50 @@
+body{
+    background-color: aliceblue;
+}
+
+.menuPrincipal li{
+    text-align: right;
+    list-style: none;
+    display: inline-block;
+}
+
+.menuPrincipal li a{
+    text-decoration: none;
+    margin-right: 1px; 
+}
+
+a:hover{
+    background-color: aquamarine;
+}
+
+footer{
+text-align: center;    
+
+}
+
+section{
+    width: 100%;
+    background-color: blueviolet
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 800px;
+    width: 800px;
+    margin: auto;
+    padding-top: 10px;
+    
+    background-color: aqua;
+}
+
+.div1, .div2, .div3, .div4, .div5, .div6{
+    display: flex;
+    align-items: center;
+    height: 330px;
+    width: 250px;
+    margin: 5px;
+    
+}

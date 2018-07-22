@@ -3,6 +3,12 @@ body{
     
 }
 
+header{
+
+	display: flex;
+	justify-content: center;
+}
+
 .containerTop{
 	display: flex;
 	flex-direction: row;
@@ -76,7 +82,7 @@ text-align: center;
 
 }
 
-section{
+.central{
     width: 100%;
     background-color: blueviolet
 }

@@ -5,10 +5,11 @@
         <script src="js/jquery-3.3.1.min.js"></script>
         
         <link rel="stylesheet" type="text/css" href="css/estilo.css"/ >
+        
 		<title>Teste de js</title>
         
 	</head>
-	<body onload="abrirInventario()">
+	<body>
         
         <main>
             <header> </header>
@@ -23,42 +24,22 @@
             
             <section>
                 <div class="principal">
-                    <div class="div1"><img src="" width="245px" height="325px" id="img"/></div>
-                    <div class="div2"><img src="" width="245px" height="325px" id="img"/></div>
-                    <div class="div3"><img src="" width="245px" height="325px" id="img"/></div>
-                    <div class="div4"><img src="" width="245px" height="325px" id="img"/></div>
-                    <div class="div5"><img src="" width="245px" height="325px" id="img"/></div>
-                    <div class="div6"><img src="" width="245px" height="325px" id="img"/></div>
+                    <div class="cardFotos card1"><img src="" width="245px" height="325px"/></div>
+                    <div class="cardFotos card2"><img src="" width="245px" height="325px"/></div>
+                    <div class="cardFotos card3"><img src="" width="245px" height="325px"/></div>
+                    <div class="cardFotos card4"><img src="" width="245px" height="325px"/></div>
+                    <div class="cardFotos card5"><img src="" width="245px" height="325px"/></div>
+                    <div class="cardFotos card6"><img src="" width="245px" height="325px"/></div>
                 </div>
-            
+                <script type="text/javascript" src="js/script.js"></script>
             </section>
-            
+            <button onclick="js/script.js">cliiique</button>
             <button onclick="document.getElementById('div1').src='../cheiadegraca/img/biquini1.jpg'">Exibir</button>
             <footer>Av Comandante assis 359<br />
                     Cel: 98169-6918<br />
                     Email: contato@biquinischeiadegraca.com.br
             </footer>
         </main>
-        <script>
-            function abrirInventario(){
-                var qtd=7;
-                var caminho="../cheiadegraca/img/biquini";
-                var links= new Array();
-                
-                for(i=1; i < qtd; i++){
-                    var links = caminho+[i];           
-                    
-                    
-                    console.log("Este é um link: " + links +".jpg")
-                    document.getElementById("img").src=links+".jpg";
-                }
-                
-                console.log(links)
-                
-                
-             }
-        </script>
         
-
 	</body>
 </html>
